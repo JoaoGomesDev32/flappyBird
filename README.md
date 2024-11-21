@@ -4,9 +4,7 @@ Um jogo simples e divertido inspirado no famoso Flappy Bird, desenvolvido com Ja
 
 ## 🎮 Sobre o jogo
 
-O **Flappy Bird** é um jogo onde o objetivo é manter o pássaro voando, desviando de obstáculos para ganhar pontos. Com controles simples e uma jogabilidade viciante, ele testa suas habilidades e reflexos.
-
-![Flappy Bird](src="imagens/flappybird-print.png)
+O Flappy Bird é um jogo onde o objetivo é manter o pássaro voando, desviando de obstáculos para ganhar pontos. Com controles simples e uma jogabilidade viciante, ele testa suas habilidades e reflexos.
 
 ## 🚀 Funcionalidades
 
@@ -23,22 +21,14 @@ O **Flappy Bird** é um jogo onde o objetivo é manter o pássaro voando, desvia
 
 ## 📂 Estrutura do projeto
 
-flappyBird/ ├── index.html # Arquivo principal ├── styles.css # Estilos do jogo ├── script.js # Lógica do jogo ├── assets/ # Imagens e sons do jogo └── README.md # Documentação
-
-
-## 🖥️ Pré-requisitos
-
-- Um navegador moderno que suporte JavaScript.
-
-## 📦 Como executar o jogo
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/JoaoGomesDev32/flappyBird.git
-
-bash
-Copiar código
-
+```bash
+flappyBird/
+├── index.html       # Arquivo principal
+├── styles.css       # Estilos do jogo
+├── script.js        # Lógica do jogo
+├── assets/          # Imagens e sons do jogo
+└── README.md        # Documentação
+```
 
 ## 🖥️ Pré-requisitos
 
@@ -47,23 +37,47 @@ Copiar código
 ## 📦 Como executar o jogo
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/JoaoGomesDev32/flappyBird.git
+    ```bash
+    git clone https://github.com/JoaoGomesDev32/flappyBird.git
+    ```
 
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd flappyBird
+    ```
 
+3. Abra o arquivo `index.html` no seu navegador.
 
-# flappyBird com Javascript
+## 📝 Como jogar
 
-Jogue através do link: https://voapassarinhovoa.netlify.app/
-<img align="center"  height="350" width="700" src="imagens/flappybird-print.png">
+- Clique ou pressione a barra de espaço para fazer o pássaro voar.
+- Desvie dos obstáculos para acumular pontos.
+- Evite tocar nos tubos ou cair no chão para continuar jogando.
 
-## ✨ Descrição
+## 📷 Capturas de tela
 
-#### <p align="justify">Jogo Flappy Bird baseado no canal @codeCreative do youtube desenvolvido com javascript.</p>
+![Tela inicial do jogo](/imagens/start-game.png "Tela inicial do jogo")
 
-## ✨ Tecnologias usadas
-<div style="display: inline_block">
-  <img align="center" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center"  height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center"  height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-</div>
+![Jogo em execução](/imagens/gaming.png "Jogo em execução")
+
+![Tela de fim de jogo](/imagens/end-game.png "Tela de fim de jogo")
+
+## 🛠️ Melhorias futuras
+
+- Adicionar sons e música de fundo.
+- Implementar um placar de pontuações mais altas.
+- Tornar o jogo responsivo para dispositivos móveis.
+
+## 🤝 Contribuições
+
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+
+## 🌟 Entre em contato
+
+João Gomes  
+[GitHub](https://github.com/JoaoGomesDev32) | [LinkedIn](https://www.linkedin.com/in/joaofelipedev32/)
+
